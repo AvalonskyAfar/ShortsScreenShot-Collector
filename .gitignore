@@ -1,0 +1,10 @@
+.gradle/
+.tools/
+android/.gradle/
+android/local.properties
+android/app/build/
+release/
+dataset/
+windows/__pycache__/
+windows/.test-tmp/
+*.part

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">短视频采集器</string>
+    <string name="accessibility_description">用于确认目标短视频应用位于前台，并执行用户授权的自动上滑手势。不会读取或识别页面文字。</string>
+</resources>

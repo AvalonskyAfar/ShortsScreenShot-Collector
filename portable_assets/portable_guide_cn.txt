@@ -1,0 +1,18 @@
+短视频图片数据采集器 - Windows 便携接收端
+
+使用方法：
+1. 将整个文件夹解压到本地磁盘，不要只单独复制 EXE。
+2. 双击 START_RECEIVER.bat 或 ShortVideoCollectorPortable.exe。
+3. Windows 防火墙询问时，只允许“专用网络”。
+4. 手机无线连接时填写窗口显示的局域网 IP、端口和配对码。
+5. 手机 USB 连接时，先运行 enable_usb_debug.ps1，然后填写 127.0.0.1。
+
+图片默认保存在本文件夹的 dataset 目录。
+receiver-config.json 会在首次启动后生成，用于保存本机设置和配对码。
+
+换电脑：
+- 可以复制整个文件夹；
+- 如果只需要程序，不需要旧图片，可以不复制 dataset；
+- 首次在新电脑启动时，确认防火墙专用网络权限；
+- USB 模式需要重新在手机上确认 USB 调试授权。
+
